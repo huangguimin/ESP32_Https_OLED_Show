@@ -1,5 +1,4 @@
-# Blink Example
+This is an esp32 project https request, using the GET method, get the Chinese sentence from https://hitokoto.cn and display it on the 0.96 inch OLED;
+Which uses UTF-8 encoding to convert to GB2312, using HZK16 font;
+Based on IDF development
 
-Starts a FreeRTOS task to blink an LED
-
-See the README.md file in the upper level 'examples' directory for more information about examples.
