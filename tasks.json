@@ -1,0 +1,91 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+    //Win
+    /*
+        {
+            "label": "make_esp32",
+            "type": "shell",
+            "command": "export PATH=\"$PATH:/mnt/d/esp-idf/xtensa-esp32-elf/bin\" && export IDF_PATH=\"/mnt/d/esp-idf\" && make -j8 flash",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make_men",
+            "type": "shell",
+            "command": "export PATH=\"$PATH:/mnt/d/esp-idf/xtensa-esp32-elf/bin\" && export IDF_PATH=\"/mnt/d/esp-idf\" && make -j8 menuconfig",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make_clean",
+            "type": "shell",
+            "command": "export PATH=\"$PATH:/mnt/d/esp-idf/xtensa-esp32-elf/bin\" && export IDF_PATH=\"/mnt/d/esp-idf\" && make -j8 clean",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make_esp32_monitor",
+            "type": "shell",
+            "command": "export PATH=\"$PATH:/mnt/d/esp-idf/xtensa-esp32-elf/bin\" && export IDF_PATH=\"/mnt/d/esp-idf\" && make -j8 flash monitor",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+*/
+//Mac
+        {
+            "label": "make_esp32",
+            "type": "shell",
+            "command": "source ~/.bashrc && make -j8 flash",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make_men",
+            "type": "shell",
+            "command": "source ~/.bashrc && make -j8 menuconfig",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make_clean",
+            "type": "shell",
+            "command": "source ~/.bashrc && make -j8 clean",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make_esp32_monitor",
+            "type": "shell",
+            "command": "source ~/.bashrc && make -j8 flash monitor",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
