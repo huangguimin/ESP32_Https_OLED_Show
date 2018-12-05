@@ -3,3 +3,4 @@ Which uses UTF-8 encoding to convert to GB2312, using HZK16 font;
 Based on IDF development
 
 OLED SSD1306 shows spi mode
+https://youtu.be/_BAaR-08Q_A
